@@ -14,13 +14,18 @@ namespace FormApp_ListaNotaAlumno
 
     public partial class Form1 : Form
     {
+        Alumnos misAlumnos = new Alumnos();
 
         public Form1()
         {
             InitializeComponent();
         }
-        Alumnos misAlumnos = new Alumnos();
 
+
+
+        // Funcion principal que llama otras funciones para mostrar el nombre del alumno
+        // junto su nota y un mensaje si está aprobado o no.
+        //
         private void button1_Click(object sender, EventArgs e)
         {
             Alumno miAlumno = new Alumno();
@@ -72,14 +77,14 @@ namespace FormApp_ListaNotaAlumno
         private ArrayList listaAlumnos = new ArrayList();
 
         // Agrega un nuevo alumno a la lista
-        //        
+             
         public void Agregar(Alumno alu)
         {
             listaAlumnos.Add(alu);
         }
 
         // Devuelve el alumno que está en la posición num
-        //
+        
         public Alumno Obtener(int num)
         {
             if (num >= 0 && num <= listaAlumnos.Count)
@@ -90,7 +95,7 @@ namespace FormApp_ListaNotaAlumno
         }
 
         // Devuelve la nota media de los alumnos
-        //
+        
         public float Media
         {
             get
@@ -102,7 +107,7 @@ namespace FormApp_ListaNotaAlumno
                     float media = 0;
                     for (int i = 0; i < listaAlumnos.Count; i++)
                     {
-                        media += ((Alumno)listaAlumnos[i]).Nota;
+                        media = media + ((Alumno)listaAlumnos[i]).Nota;
                     }
                     return (media / listaAlumnos.Count);
                 }
