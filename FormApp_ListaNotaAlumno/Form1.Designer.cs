@@ -31,7 +31,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.aluNota = new System.Windows.Forms.TextBox();
             this.aluNombre = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.listaAlumnos = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -52,7 +52,6 @@
             this.aluNota.Name = "aluNota";
             this.aluNota.Size = new System.Drawing.Size(74, 22);
             this.aluNota.TabIndex = 1;
-            this.aluNota.TextChanged += new System.EventHandler(this.aluNota_TextChanged);
             // 
             // aluNombre
             // 
@@ -60,17 +59,15 @@
             this.aluNombre.Name = "aluNombre";
             this.aluNombre.Size = new System.Drawing.Size(187, 22);
             this.aluNombre.TabIndex = 2;
-            this.aluNombre.TextChanged += new System.EventHandler(this.aluNombre_TextChanged);
             // 
-            // textBox3
+            // listaAlumnos
             // 
-            this.textBox3.Location = new System.Drawing.Point(38, 135);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(391, 254);
-            this.textBox3.TabIndex = 3;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.listaAlumnos.Location = new System.Drawing.Point(38, 135);
+            this.listaAlumnos.Multiline = true;
+            this.listaAlumnos.Name = "listaAlumnos";
+            this.listaAlumnos.ReadOnly = true;
+            this.listaAlumnos.Size = new System.Drawing.Size(391, 254);
+            this.listaAlumnos.TabIndex = 3;
             // 
             // label1
             // 
@@ -97,7 +94,7 @@
             this.ClientSize = new System.Drawing.Size(569, 427);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.listaAlumnos);
             this.Controls.Add(this.aluNombre);
             this.Controls.Add(this.aluNota);
             this.Controls.Add(this.button1);
@@ -113,7 +110,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox aluNota;
         private System.Windows.Forms.TextBox aluNombre;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox listaAlumnos;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
     }

@@ -1,0 +1,10 @@
+D:\DAW\Entornos Desarrollo\Segunda Eval\Tema 6\Practica 5.1\Practica_SegundoAlumno\FormApp_ListaNotaAlumno\obj\Debug\FormApp_ListaNotaAlumno.csprojResolveAssemblyReference.cache
+D:\DAW\Entornos Desarrollo\Segunda Eval\Tema 6\Practica 5.1\Practica_SegundoAlumno\FormApp_ListaNotaAlumno\obj\Debug\FormApp_ListaNotaAlumno.Form1.resources
+D:\DAW\Entornos Desarrollo\Segunda Eval\Tema 6\Practica 5.1\Practica_SegundoAlumno\FormApp_ListaNotaAlumno\obj\Debug\FormApp_ListaNotaAlumno.Properties.Resources.resources
+D:\DAW\Entornos Desarrollo\Segunda Eval\Tema 6\Practica 5.1\Practica_SegundoAlumno\FormApp_ListaNotaAlumno\obj\Debug\FormApp_ListaNotaAlumno.csproj.GenerateResource.cache
+D:\DAW\Entornos Desarrollo\Segunda Eval\Tema 6\Practica 5.1\Practica_SegundoAlumno\FormApp_ListaNotaAlumno\obj\Debug\FormApp_ListaNotaAlumno.csproj.CoreCompileInputs.cache
+D:\DAW\Entornos Desarrollo\Segunda Eval\Tema 6\Practica 5.1\Practica_SegundoAlumno\FormApp_ListaNotaAlumno\bin\Debug\FormApp_ListaNotaAlumno.exe.config
+D:\DAW\Entornos Desarrollo\Segunda Eval\Tema 6\Practica 5.1\Practica_SegundoAlumno\FormApp_ListaNotaAlumno\bin\Debug\FormApp_ListaNotaAlumno.exe
+D:\DAW\Entornos Desarrollo\Segunda Eval\Tema 6\Practica 5.1\Practica_SegundoAlumno\FormApp_ListaNotaAlumno\bin\Debug\FormApp_ListaNotaAlumno.pdb
+D:\DAW\Entornos Desarrollo\Segunda Eval\Tema 6\Practica 5.1\Practica_SegundoAlumno\FormApp_ListaNotaAlumno\obj\Debug\FormApp_ListaNotaAlumno.exe
+D:\DAW\Entornos Desarrollo\Segunda Eval\Tema 6\Practica 5.1\Practica_SegundoAlumno\FormApp_ListaNotaAlumno\obj\Debug\FormApp_ListaNotaAlumno.pdb
